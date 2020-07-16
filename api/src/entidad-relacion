@@ -1,0 +1,14 @@
+1                   n              n?    n
+USER ---->ver----->PRODUCTO(CERMEZA)     CATEGORIA
+     --->buscar--->                                            
+     ---->comprar->                                              
+id  PK |           | id PK               | id PK
+nombre*|           | marca*              | id_product FK
+dir    |           | nombre              | tipo
+email* |                                 | color
+tel    |                                 | presentacion
+tarjeta|                                 | tipo de fabricacion
+                                         | procedencia
+
+
+

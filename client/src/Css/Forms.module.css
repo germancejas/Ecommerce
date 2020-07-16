@@ -1,0 +1,42 @@
+.container{
+    width: 900px;
+    
+}
+
+.text{
+    color: red;
+    border-style: red;
+}
+
+/* .formContainer{
+    padding: 60px;
+    display: inline-flex;
+    border: solid 1px grey;
+    border-radius: 3px;
+    box-sizing: border-box;
+} */
+/* button, input {
+	overflow: visible;
+	box-sizing: border-box;
+	border: aliceblue solid 1px;
+	color: cadetblue;
+} */
+.divContainer{
+    display: flex;
+    width: auto;
+}
+.formControl {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

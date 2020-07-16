@@ -1,0 +1,15 @@
+.productContainer{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    position: absolute;
+    padding-right: 20px;
+}       
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}

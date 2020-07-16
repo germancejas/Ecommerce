@@ -1,0 +1,58 @@
+
+
+.container {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    background-color: gainsboro;
+
+}
+
+.subContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerCards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    border: 1px solid lightgray;
+    width: 500px;
+    margin-top: 13px;
+}
+.titulo {
+    margin: 31px;
+}
+
+.greenBtn {
+    border-color: cadetblue !important;
+    color: cadetblue;
+    background-color: white;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.greenBtn:hover {
+    color: #fff;
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+body{
+    background-color: darkgray;
+}
